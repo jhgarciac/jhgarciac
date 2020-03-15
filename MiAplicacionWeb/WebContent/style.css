@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+body,html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.titulo{
+	position:absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-53%);
+}
+.login{
+	border: 1px solid #E1E1E1;
+	border-radius: 5px;
+	padding: 17px;
+	width: 200px;
+	position: absolute;
+	top: 33%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+@media(max-width: 400px){
+	.login{
+		width: 90%;
+	}
+	.titulo{
+		width: 80%;
+	}
+}
